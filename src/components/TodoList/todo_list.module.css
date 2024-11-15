@@ -1,0 +1,66 @@
+.todo-list {
+    margin: 20px auto;
+    display: block;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid saddlebrown; */
+    padding: 20px;
+}
+
+.todo-table_header {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+ 
+}
+
+.button-add-task {
+    position: relative;
+    width: 100px;
+    border: 1px solid #1ab3ca;
+    padding: 10px;
+    color: #1ab3ca;
+    right: 0;
+    background-color: aliceblue;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button-add-task:hover {
+    background-color: #1ab3ca;
+    color: white;
+
+}
+
+.todo-table_header-cell {
+    flex: 1;
+    text-align: center;
+}
+
+.task-name {
+    flex: 2;
+}
+
+.status {
+    flex: 2;
+}
+
+.todo-table_header {
+    font-weight: bold;
+}
+
+.todo-table_header-cell:first-child {
+    flex: 0.5 !important; 
+}
+
+.todo-table_header-cell:last-child {
+    flex: 0.5;
+}
+
+.button-add-task-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}

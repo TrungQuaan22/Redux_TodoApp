@@ -1,0 +1,56 @@
+/* item */
+.todo-item {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+
+}
+
+.todo-item_cell {
+    flex: 1;
+    text-align: center;
+}
+
+.task-name {
+    flex: 2 ;
+}
+
+.status {
+    flex: 2;
+}
+
+.status-button {
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.status-button.Todo {
+    border: 1px solid #b9b8b9;
+    color: #b9b8b9;
+}
+
+.status-button.In-Progress {
+    border: 1px solid #f57c00;
+    color: #f57c00;
+}
+
+.status-button.Complete {
+    border: 1px solid #388e3c;
+    color: #388e3c;
+}
+
+.btn-edit,
+.btn-remove {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.todo-item_cell:first-child {
+    flex: 0.5;
+}
+
+.todo-item_cell:last-child {
+    flex: 0.5;
+}
